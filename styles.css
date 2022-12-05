@@ -26,6 +26,7 @@ header > img {
   margin-right: auto;
   max-height: 20rem;
   max-width: 20rem;
+  padding-bottom: 2.5%;
 }
 
 nav ul {
