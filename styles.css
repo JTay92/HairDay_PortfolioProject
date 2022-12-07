@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: #fbfbf8;
+  background-color: #f2dfd3;
   font-family: "Sarabun", serif;
   margin-top: 3rem;
   margin-bottom: 3rem;
@@ -32,10 +32,25 @@ header > img {
 nav ul {
   list-style: none;
   text-align: center;
+  background-color: #b65542;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 2rem;
 }
 
 nav li {
   display: inline-block;
+  padding: 1rem 2rem;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #f2dfd3;
+  font-size: 1.5rem;
+}
+
+nav li a:hover {
+  text-shadow: 0.5px -0.5px #fbfbf8;
 }
 
 section {
