@@ -61,6 +61,12 @@ article {
   flex: 1;
 }
 
+h2 ~ img {
+  width: 75%;
+  height: 25%;
+  object-fit: scale-down;
+}
+
 footer {
   display: flex;
 }
