@@ -36,11 +36,15 @@ nav ul {
   margin-top: 1rem;
   margin-bottom: 1rem;
   border-radius: 2rem;
-  padding: 1rem;
 }
 
 nav li {
   display: inline-block;
+  padding: 1rem 2rem;
+}
+
+nav li a {
+  text-decoration: none;
 }
 
 section {
