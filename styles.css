@@ -62,11 +62,14 @@ article {
   flex: 1;
   border: solid 1px black;
   margin: 1rem;
+  border-radius: 1rem;
+  /* background-color: #fbfbf8; */
+  box-shadow: 0 0 1rem #b65542;
 }
 
 h2 ~ img {
   display: block;
-  width: 100%;
+  width: 75%;
   height: auto;
   object-fit: cover;
   aspect-ratio: 1;
