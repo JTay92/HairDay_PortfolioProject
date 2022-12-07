@@ -45,6 +45,12 @@ nav li {
 
 nav li a {
   text-decoration: none;
+  color: #f2dfd3;
+  font-size: 1.5rem;
+}
+
+nav li a:hover {
+  text-shadow: 0.5px -0.5px #fbfbf8;
 }
 
 section {
