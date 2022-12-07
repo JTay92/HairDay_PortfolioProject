@@ -60,6 +60,7 @@ section {
 article {
   flex: 1;
   border: solid 1px black;
+  margin: 1rem;
 }
 
 h2 ~ img {
