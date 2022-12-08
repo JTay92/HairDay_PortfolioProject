@@ -69,10 +69,14 @@ article {
 }
 
 .promotion {
-  margin-top: 3rem;
-  padding: 5rem 0;
+  display: block;
+  margin: 2rem auto;
+  padding: 10rem 3rem;
   background-image: url("Images/Promotion.jpg");
-  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: 75% 100%;
+  background-position: right;
 }
 
 h2 ~ img {
