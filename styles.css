@@ -13,11 +13,16 @@ body {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 2.5rem;
+  width: 25%;
+  text-align: left;
+  /* padding-left: 0; */
 }
 
 h2 {
-  font-size: 3rem;
+  font-size: 2rem;
+  text-align: center;
+  padding: 10% 0;
 }
 
 header > img {
@@ -59,6 +64,78 @@ section {
 
 article {
   flex: 1;
+  border: solid 1px black;
+  margin: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 0rem 0.5rem #b65542;
+}
+
+.promotion {
+  display: block;
+  margin: 2rem auto;
+  min-height: 50vh;
+  box-shadow: 0 0.5rem 1rem #b65542;
+  background-image: url("Images/Promotion.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: 75% 100%;
+  background-position: right;
+}
+
+.promotion p {
+  max-width: 25%;
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+form {
+  width: 20%;
+  text-align: center;
+  margin: 2rem 1.75rem;
+  padding: 1rem;
+  background-color: #b65542;
+  border-radius: 1rem;
+  color: white;
+  font-size: 1.5rem;
+}
+
+input {
+  width: 100%;
+  height: 1.5rem;
+  text-align: center;
+}
+
+article > h1 {
+  display: inline-block;
+  text-align: center;
+  padding-top: 0;
+}
+
+h2 ~ img {
+  display: block;
+  width: 75%;
+  height: auto;
+  object-fit: cover;
+  aspect-ratio: 1;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem 0;
+}
+
+h2 ~ p {
+  text-align: left;
+  padding: 10%;
+  font-size: 1.25rem;
+}
+
+p > a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+p > a:hover {
+  color: white;
 }
 
 footer {

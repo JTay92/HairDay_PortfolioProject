@@ -34,19 +34,63 @@
 
     <main>
       <section>
-        <article>
-          <h1>Promotion</h1>
+        <article class="promotion">
+          <h1>Fancy a free treatment on us?</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
-            sapiente veniam quasi perferendis. At quis deserunt officia nemo
-            necessitatibus magni, placeat laboriosam eum explicabo accusantium
-            quidem? Reprehenderit recusandae esse eligendi?
+            Get a free beauty treatment with every hair appointment this
+            weekend! There is a limited no. of spaces so get in before they go.
+            Just fill in the form below or contact us directly!
           </p>
+          <form>
+            <div>
+              <label for="customername">Name:</label><br />
+              <input
+                type="text"
+                id="customername"
+                name="customername"
+                required
+                minlength="2"
+                placeholder="Enter your name here"
+              />
+            </div>
+            <div>
+              <label for="email">Email:</label><br />
+              <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                minlength="5"
+                placeholder="Enter your email so that we can send confirmation"
+              />
+            </div>
+            <div>
+              <label for="phonenumber">Phone Number:</label><br />
+              <input
+                type="tel"
+                id="phonenumber"
+                name="phonenumber"
+                required
+                minlength="11"
+                maxlength="11"
+                placeholder="Enter your phone number for if we need to contact you"
+              />
+            </div>
+            <div>
+              <label for="appointment">Select Date</label><br />
+              <input
+                type="datetime-local"
+                id="appointment"
+                name="appointment"
+              />
+            </div>
+          </form>
         </article>
       </section>
       <section>
         <article>
-          <h2>Info 1</h2>
+          <h2>What we offer</h2>
+          <img src="Images/edgy_colour.jpg" alt="Edgy Colour image" />
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
             doloribus odit quod voluptatem! Est autem quam nisi. Corrupti ad
@@ -55,16 +99,22 @@
           </p>
         </article>
         <article>
-          <h2>Info 2</h2>
+          <h2>Book an Appointment</h2>
+          <img
+            src="Images/makeup_nail_tutorials.jpg"
+            alt="Makeup & Nail Tutorials image"
+          />
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
             doloribus odit quod voluptatem! Est autem quam nisi. Corrupti ad
             doloremque molestias placeat laudantium dolores cumque obcaecati ex,
             eius veritatis itaque?
+            <a href="contact.html">Book here!</a>
           </p>
         </article>
         <article>
-          <h2>Info 3</h2>
+          <h2>Meet the Team</h2>
+          <img src="Images/Meet_the_team.jpg" alt="Treat yourself image" />
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
             doloribus odit quod voluptatem! Est autem quam nisi. Corrupti ad
