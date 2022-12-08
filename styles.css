@@ -13,7 +13,10 @@ body {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 2.5rem;
+  width: 25%;
+  text-align: left;
+  /* padding-left: 0; */
 }
 
 h2 {
@@ -77,6 +80,12 @@ article {
   background-attachment: scroll;
   background-size: 75% 100%;
   background-position: right;
+}
+
+article > h1 {
+  display: inline-block;
+  text-align: center;
+  padding-top: 0;
 }
 
 h2 ~ img {
