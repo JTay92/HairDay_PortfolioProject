@@ -136,7 +136,20 @@ p > a {
 }
 
 p > a:hover {
-  color: white;
+  color: #b65542;
+}
+
+article > div {
+  text-align: left;
+  list-style-position: inside;
+  margin-left: 10%;
+  margin-right: auto;
+  font-size: 1.25rem;
+}
+
+article > ul {
+  display: block;
+  text-align: left;
 }
 
 footer {
@@ -167,6 +180,5 @@ footer p {
   text-align: right;
   font-size: 1.5rem;
   color: white;
-  padding-right: 1rem;
-  text-align: center;
+  padding-right: 10rem;
 }
